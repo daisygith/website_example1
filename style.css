@@ -83,6 +83,21 @@ section {
     border: red 2px solid;
 }
 
+.element-section .element-main-page > .element-background-overlay {
+    background-image: url("h-tx_2.PNG");
+    background-position: 100% 164px;
+    background-repeat: no-repeat;
+    opacity: 1;
+    z-index: 1;
+}
+.element-background-overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
 .home-title {
     background-color: bisque;
     max-width: 600px;
