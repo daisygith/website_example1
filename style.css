@@ -15,21 +15,22 @@
 
 }
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
-    background: transparent;
+    padding: 0 9%;
+    background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
 
+
 .element-widget-container {
-    background-color: aqua;
+    /*background-color: aqua;*/
     position: relative;
     width: 100%;
     flex-wrap: wrap;
@@ -55,7 +56,7 @@
 }
 
 .main-navigation > ul > li {
-    margin: 0px 20px;
+    margin: 0px 25px;
     padding: 0px 0px;
     float: left;
     position: relative;
@@ -79,7 +80,7 @@
 }
 
 section {
-    background-color: yellowgreen;
+    /*background-color: yellowgreen;*/
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
@@ -189,20 +190,28 @@ section {
 
 .portfolio-elements {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
+}
+
+.portfolio-boxes {
+    border: black 2px solid;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px 2px;
 }
 
 .portfolio-box {
-    /*border: black 2px solid;*/
-    background-color: white;
-    position: relative;
-    width: 25rem;
-    height: 14rem;
+    border: #1a1b1e 2px solid;
+    width: 322px;
+    height: 154px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .portfolio-button {
@@ -500,3 +509,117 @@ section {
 
 
 /*FOOTER*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+}
+
+.site-footer {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    /*flex-wrap: nowrap;*/
+    /*flex-direction: column;*/
+    padding: 2rem 11%;
+    /*background: yellow;*/
+    min-height: auto;
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+    border-color: #354D9B;
+}
+
+.footer-class section{
+        min-height: auto;
+        padding: 1rem 1% 1rem;
+        margin-left: 1%;
+        margin-right: 1%;
+        justify-content: center;
+}
+
+.footer-class {
+    /*position: relative;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /*background-color: darkgray;*/
+}
+
+.footer-element {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.element-footer-container {
+    width: 365px;
+    /*border: black 2px solid;*/
+    /*background-color: white;*/
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-column {
+    position: relative;
+    min-height: 1px;
+}
+
+.footer-widget-wrap {
+    /*border: orange 2px solid;*/
+    position: relative;
+    width: 100%;
+    align-content: flex-start;
+    height: 215px;
+}
+
+.footer-laws .footer-iconTop {
+    position: relative;
+}
+
+.footer-laws {
+    /*border: darkmagenta 2px solid;*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-laws a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border: 0.12rem solid darkblue;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.footer-iconTop a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    /*background: var(--main-color);*/
+    border: 0.2rem solid white;
+    border-radius: 0.6rem;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.footer-iconTop a i {
+    font-size: 2rem;
+
+}
