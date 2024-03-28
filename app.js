@@ -10,16 +10,27 @@ const port = 500;
 app.set("port",port);
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
-app.use(express.static(path.join(__dirname, "index.html")));
+app.use(express.static('assets'))
 
 //Routing
 app.get("/", function(req,response){
     response.sendFile(path.join(__dirname, "index.html"));
 })
-
-function $(props) {
-    return null;
-}
+app.get("/portfolio", function(req,response){
+    response.sendFile(path.join(__dirname, "portfolio.html"));
+})
+app.get("/offer", function(req,response){
+    response.sendFile(path.join(__dirname, "offer.html"));
+})
+app.get("/about", function(req,response){
+    response.sendFile(path.join(__dirname, "about.html"));
+})
+app.get("/contact", function(req,response){
+    response.sendFile(path.join(__dirname, "contact.html"));
+})
+app.get("/privacy_policy", function(req,response){
+    response.sendFile(path.join(__dirname, "privacy_policy.html"));
+})
 
 app.post("/send_email",function (req,response){
     const fullName=req.body.fullName;
@@ -37,15 +48,13 @@ app.post("/send_email",function (req,response){
             pass: 'tqqquscfxsjshabr'
         }
     });
-// \n\n email:${email}`
-//    ${fullName}
+
     const mailOptions = {
         from: `formularz kontaktowy: <${email}>`,
         to: to,
         subject : subject,
         text : `Wiadomość od:${fullName} \n\n tel:${numberPhone}\n\n email:${email}\n\n Treść:${message}`,
     }
-
 
     transporter.sendMail(mailOptions,function (error,info){
         if(error){

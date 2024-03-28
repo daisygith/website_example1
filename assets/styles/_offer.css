@@ -1,0 +1,36 @@
+.offer-page-container section {
+    min-height: auto;
+    padding: 10px 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #b47c28;
+}
+
+
+.offer2-boxes {
+    /*border: #1a1b1e 1px solid;*/
+    /*background-color: #69727d;*/
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.offer-page-elements .offer2-boxes {
+    display: flex;
+}
+
+.offer-title-box1 {
+    /*border: #bb2c2c 1px solid;*/
+    width: 50vh;
+    height: auto;
+    font-size: 25px;
+}
+.offer-title-box2 {
+    /*border: saddlebrown 1px solid;*/
+    width: 100vh;
+    height: auto;
+}

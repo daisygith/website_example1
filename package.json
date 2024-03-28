@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "run": "node app.js"
+  },
   "dependencies": {
     "express": "^4.19.1",
     "nodemailer": "^6.9.13",

@@ -1,0 +1,42 @@
+.elements-page-container .contactForm-title-describe {
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact-2-box {
+    padding: 0px 0px 0px 0px;
+    /*border: red 3px solid;*/
+    position: relative;
+    display: inline-block;
+}
+
+.contactForm-img {
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contactForm-img img {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    /*border: 0.2rem solid red;*/
+}
+
+.contactForm-title {
+    display: block;
+    padding: 150px 0px 150px 0px;
+}
+
+.contactForm-place {
+    font-size: 17px;
+}
+
+
+
+
