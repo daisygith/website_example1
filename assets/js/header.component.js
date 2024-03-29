@@ -12,6 +12,7 @@ class Header extends HTMLElement {
                             </a>
                         </div>
                         <div class="element-widget-container">
+                        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></div>
                             <nav id="site-navigation" class="main-navigation">
                                 <ul id="primary-menu" class="menu">
                                     <li id="menu-item-portfolio" class="menu-item menu-item-portfolio"><a href="/portfolio">Portfolio</a></li>
