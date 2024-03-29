@@ -14,14 +14,26 @@
 
 }
 
-
 .header {
     position: sticky;
     top: 0;
     width: 100%;
     background: white;
     z-index: 100;
+    transition: .3s;
 }
+
+.header.sticky {
+    background: white;
+}
+#menu-icon {
+    position: relative;
+    font-size: 3.6rem;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
 
 .site-header {
     margin: 0 auto;
@@ -29,19 +41,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 15px;
+    /*padding: 1rem 15px;*/
 }
 
 .element-widget-container {
     position: relative;
     flex-wrap: wrap;
     align-content: flex-start;
-    padding: 5px 30px;
+    /*padding: 5px 30px;*/
 }
 
 .logo img {
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 220px;
+    max-height: 220px;
 }
 
 .element-widget-container .main-navigation {
@@ -647,3 +659,4 @@ h1.privacy-police-title {
 p.privacy-police-paragraph {
     line-height: 1.8;
 }
+
