@@ -26,6 +26,7 @@
 .header.sticky {
     background: white;
 }
+
 #menu-icon {
     position: relative;
     font-size: 3.6rem;
@@ -38,14 +39,59 @@
 .site-header {
     margin: 0 auto;
     max-width: 1440px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
     /*padding: 1rem 15px;*/
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.hamburger {
+    color: #1a1b1e;
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    height: 2px;
+    width: 27px;
+    background: black;
+    margin: 5px 0;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-navigation--open {
+    transform: translate(0) !important;
+}
+
+.hamburger--open .bar:nth-child(1){
+    transform: translateY(7px) rotate(45deg);
+}
+.hamburger--open .bar:nth-child(2){
+    opacity: 0;
+}
+.hamburger--open .bar:nth-child(3){
+    transform: translateY(-7px) rotate(-45deg);
 }
 
 .element-widget-container {
     position: relative;
+    /*display: flex;*/
     flex-wrap: wrap;
     align-content: flex-start;
     /*padding: 5px 30px;*/
@@ -56,17 +102,13 @@
     max-height: 220px;
 }
 
-.element-widget-container .main-navigation {
-    padding: 1px 120px;
-    display: contents;
-}
+/*.header-content .main-navigation {*/
+/*    padding: 1px 120px;*/
+/*    !*display: contents;*!*/
+/*}*/
 
 .main-navigation {
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%;
-    width: auto;
+    transition: all 0.3s ease-in-out;
 }
 
 .main-navigation > ul > li {
