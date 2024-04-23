@@ -18,7 +18,7 @@ class ContactForm extends HTMLElement {
                                                 <div class="contact-input-box">
                                                     <div class="contact-input-field">
                                                         <label>
-                                                            <input type="text" name="numberPhone" id="numberPhone" placeholder="Numer telefonu" required>
+                                                            <input type="number" name="numberPhone" id="numberPhone" placeholder="Numer telefonu" required>
                                                         </label>
                                                     </div>
                                                     <div class="contact-input-field">
@@ -27,14 +27,14 @@ class ContactForm extends HTMLElement {
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="contact-input-box">
+<!--                                                <div class="contact-input-box">-->
                                                     <div class="contact-textarea-field">
                                                         <label>
                                                             <textarea name="message" id="message" placeholder="Twoja wiadomość" required></textarea>
 <!--                                                             cols="30" rows="7" -->
                                                         </label> 
                                                     </div>
-                                                </div>
+<!--                                                </div>-->
                                                 <div class="contact-button">
                                                     <span class="contact-button-content">
                                                         <button type="submit" class="contact-button-text">WYŚLIJ</button>
