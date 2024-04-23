@@ -42,7 +42,7 @@
     /*display: flex;*/
     /*justify-content: space-between;*/
     /*align-items: center;*/
-    /*padding: 1rem 15px;*/
+    padding: 1rem 15px;
 }
 
 .header-content {
@@ -102,11 +102,6 @@ a {
     max-height: 220px;
 }
 
-/*.header-content .main-navigation {*/
-/*    padding: 1px 120px;*/
-/*    !*display: contents;*!*/
-/*}*/
-
 .main-navigation {
     transition: all 0.3s ease-in-out;
 }
@@ -133,6 +128,13 @@ a {
     outline: none;
     color: #1a1b1e;
     white-space: nowrap;
+    transition: .3s;
+}
+
+
+.main-navigation ul>li>a:hover {
+    color: #b47c28;
+    font-weight: bold;
 }
 
 .element-section .element-main-page {
@@ -144,16 +146,28 @@ a {
 /*MAIN PAGE*/
 
 .element-main-page{
-    display: flex;
-    align-items: center;
-    /*border: red 2px solid;*/
     margin: 0 auto;
     max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
 }
 
 .home-title {
     /*background-color: bisque;*/
     max-width: 600px;
+}
+
+.home-img {
+    background-image: url(../images/h-tx_2.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    text-align: right;
 }
 
 .home-title-container {
@@ -275,26 +289,14 @@ a {
 /*PORTFOLIO SECTION*/
 
 .portfolio-elements {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.portfolio-boxes {
-    /*border: black 2px solid;*/
-    /*background-color: white;*/
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .portfolio-box {
     /*border: #1a1b1e 2px solid;*/
-    width: 330px;
-    height: 230px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
@@ -392,38 +394,24 @@ a {
     text-align: center;
 }
 
-.contact-elements form .contact-input-box .contact-input-field input{
-    width: 80%;
-    height: 85%;
+.contact-elements form .contact-input-box .contact-input-field input,
+.contact-elements form .contact-textarea-field textarea{
+    width: 100%;
+    height: 100%;
     padding: 1.2rem;
-    font-size: 1.05rem;
+    /*font-size: 1.05rem;*/
     border-radius: 0.6rem;
-    border: 2px solid black;
+    border: .1rem solid black;
 }
 
-
-.contact-elements form .contact-input-box .contact-textarea-field textarea {
-    padding: 1.2rem;
-    font-size: 1.05rem;
-    border-radius: 0.6rem;
-    border: 2px solid black;
-}
 
 .contact-elements form .contact-textarea-field {
     position: relative;
     margin: 0.8rem 0 2.7rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2px 53px;
+    padding: 2px 64px;
+    height: 14rem;
 }
 
-.contact-elements form textarea {
-    resize: both;
-    width: 56rem;
-    height: 15rem;
-
-}
 
 .contact-button {
     /*background-color: aqua;*/
@@ -468,7 +456,7 @@ a {
 }
 
 .site-footer {
-    padding: 2rem 11px;
+    padding-top: 8px;
     /*background: yellow;*/
     min-height: auto;
     border-style: solid;
@@ -477,11 +465,11 @@ a {
 }
 
 .footer-class section{
-        min-height: auto;
-        padding: 1rem 1% 1rem;
-        margin-left: 1%;
-        margin-right: 1%;
-        justify-content: center;
+    min-height: auto;
+    padding: 1rem 0px 1rem;
+    margin-left: 1%;
+    margin-right: 1%;
+    justify-content: center;
 }
 
 .footer-class {
@@ -525,7 +513,7 @@ a {
     position: relative;
     width: 100%;
     align-content: flex-start;
-    height: 215px;
+    /*height: 215px;*/
 }
 
 .footer-paragraph {
@@ -542,6 +530,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 1rem ;
 }
 
 .footer-laws a {
@@ -630,7 +619,7 @@ a {
 
 .elements-contact {
     /*border: red 2px solid;*/
-    padding: 0px 0px 0px 0px;
+    /*padding: 0px 0px 0px 0px;*/
     min-height: 500px;
     background-image: url("../images/kien-nguyen-994AH40vmVs-unsplash.jpg");
     background-position: center center;
