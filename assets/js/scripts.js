@@ -14,10 +14,19 @@ hamburgerEl.addEventListener('click', () => {
 // });
 
 
-
-
 //scroll section
+let sections = document.querySelector('section');
+let navLinks = document.querySelector('header nav ul li a');
+
 window.onscroll = () => {
+    // sections.forEach(sec => {
+    //     let top = window.scrollY;
+    //     let offset = sec.offsetTop - 100;
+    //     let height = sec.offsetHeight;
+    //     let id = sec.getAttribute('id');
+    //
+    //     if
+    // });
     // sticky header
     let header = document.querySelector('header');
 
