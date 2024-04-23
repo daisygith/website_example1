@@ -18,7 +18,7 @@ class Footer extends HTMLElement {
                                                     <p>
                                                         <b>Heating Technix</b>
                                                         <br> ul.sajdhskjudfbds
-                                                        <br>kod - MIejscowość
+                                                        <br>kod - Miejscowość
                                                         <br>
                                                         <a href="tel:123123123">123 123 123</a>
                                                         " | "
