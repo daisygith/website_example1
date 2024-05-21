@@ -14,11 +14,6 @@
         transition: .3s;
     }
 
-    .main-navigation ul>li>a:hover {
-        color: #b47c28;
-        font-weight: bold;
-    }
-
     .offer-boxes {
         padding: 0px;
     }
