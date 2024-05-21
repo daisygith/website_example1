@@ -6,7 +6,7 @@ class Header extends HTMLElement {
                 <div class="site-header">
                 <!--                    #header-desktop-open-->
                         <div class="header-content">
-                            <a href="/" class="logo">  <!-- "http://h-tx.pl/"-->
+                            <a href="/" class="logo active" id="logo-id">  <!-- "http://h-tx.pl/"-->
                                <img src="../images/LOGO_b.png" alt="Heating Technix">
         <!--                        HEATING TECHNIX-->
                             </a>
@@ -16,10 +16,10 @@ class Header extends HTMLElement {
 <!--                            <div class="element-widget-container">-->
                                 <nav id="site-navigation" class="main-navigation">
                                     <ul id="primary-menu" class="menu">
-                                        <li id="menu-item-portfolio" class="nav-item"><a href="/portfolio">Portfolio</a></li>
-                                        <li id="menu-item-offer" class="nav-item"><a href="/offer">Oferta</a></li>
-                                        <li id="menu-item-about" class="nav-item"><a href="/about">O nas</a></li>
-                                        <li id="menu-item-contact" class="nav-item"><a href="/contact">Kontakt</a></li>
+                                        <li id="menu-item-portfolio" class="nav-item" data-text="portfolio"><a href="/portfolio">Portfolio</a></li>
+                                        <li id="menu-item-offer" class="nav-item" data-text="offer"><a href="/offer">Oferta</a></li>
+                                        <li id="menu-item-about" class="nav-item" data-text="about"><a href="/about">O nas</a></li>
+                                        <li id="menu-item-contact" class="nav-item" data-text="contact"><a href="/contact">Kontakt</a></li>
                                     </ul>
                                 </nav>
 <!--                            </div>-->
