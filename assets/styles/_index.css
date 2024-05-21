@@ -131,6 +131,11 @@ a {
     transition: .3s;
 }
 
+.main-navigation ul li.nav-item.active a{
+    color: #b47c28;
+    font-weight: bold;
+}
+
 
 .main-navigation ul>li>a:hover {
     color: #b47c28;
