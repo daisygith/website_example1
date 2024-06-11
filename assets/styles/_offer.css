@@ -31,7 +31,7 @@
 
     .offer-describe {
         width: 434px;
-        height: 378px;
+        height: 456px;
 
         border: 0.2px solid rgba(112, 89, 58, 0.16);
         box-shadow: 4px 4px 2px 1px rgba(112, 89, 58, 0.16);
@@ -54,6 +54,7 @@
         ul {
             li {
                 text-align: left;
+                padding-bottom: 10px;
                 font-size: 18px;
             }
         }
