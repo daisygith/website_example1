@@ -58,7 +58,13 @@ ul {
 a {
     text-decoration: none;
     color:inherit;
+    /*font-size: 22px;*/
 }
+
+.header-content a {
+    font-size: 20px;
+}
+
 
 .hamburger {
     color: #1a1b1e;
@@ -96,6 +102,7 @@ a {
     align-content: flex-start;
     /*padding: 5px 30px;*/
 }
+
 
 .logo img {
     max-width: 220px;
@@ -244,9 +251,9 @@ a {
 
 .elements-page-container section {
     min-height: auto;
-    padding: 10px 10px;
-    margin-left: 1%;
-    margin-right: 1%;
+    padding: 50px 0px 50px 0px;
+    /*margin-left: 1%;*/
+    /*margin-right: 1%;*/
 }
 
 .title-element {
@@ -321,7 +328,9 @@ a {
 }
 
 .offer-boxes {
-    /*border: black 2px solid;*/
+    border: 0.2px solid rgba(112, 89, 58, 0.16);
+    box-shadow: 4px 4px 2px 1px rgba(112, 89, 58, 0.16);
+    border-radius: 20px;
     position: relative;
     width: 25rem;
     height: auto;
@@ -330,6 +339,7 @@ a {
     align-items: center;
     padding: 10px;
 }
+
 
 
 /*ABOUT SECTION*/
@@ -602,6 +612,7 @@ a {
 .pages-title-container {
     display: flex;
     align-items: center;
+    padding-bottom: 24px;
 }
 
 .pages-title-container img {
