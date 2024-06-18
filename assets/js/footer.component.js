@@ -61,15 +61,15 @@ class Footer extends HTMLElement {
                     <div class="footer-class">
                         <div class="footer-laws">
                             <div class="footer-text">
-                                <p>Copyright © 2024 by Sylwia Dudek</p>
+                                <p>© Heating technix 2024. Wszelkie prawa zastrzeżone.</p>
+                            </div>
+                            <div class="footer-text">
+                                <p>| Projekt i realizacja SDU</p>
                             </div>
                             <div class="footer-media">
                                 <a href="https://www.linkedin.com/in/sylwia-dudek-34abab186/">
                                     <i class="bx bxl-linkedin"></i>
                                 </a>
-                            </div>
-                            <div class="footer-text">
-                                <p>| All Rights Reserved</p>
                             </div>
                         </div>
                         <div class="footer-iconTop">
