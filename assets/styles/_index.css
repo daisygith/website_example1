@@ -321,10 +321,9 @@ a {
 /*OFFER SECTION*/
 
 .offer-elements {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 44px;
 }
 
 .offer-boxes {
@@ -332,7 +331,7 @@ a {
     box-shadow: 4px 4px 2px 1px rgba(112, 89, 58, 0.16);
     border-radius: 20px;
     position: relative;
-    width: 25rem;
+    /*width: 100px;*/
     height: auto;
     display: flex;
     justify-content: center;
