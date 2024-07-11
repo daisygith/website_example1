@@ -7,8 +7,7 @@ class Header extends HTMLElement {
                 <!--                    #header-desktop-open-->
                         <div class="header-content">
                             <a href="/" class="logo active" id="logo-id"> 
-                               <img src="../images/LOGO_b.png" alt="Heating Technix">
-        <!--                        HEATING TECHNIX-->
+                                LOGO.
                             </a>
                                 <nav id="site-navigation" class="main-navigation">
                                     <ul id="primary-menu" class="menu">
