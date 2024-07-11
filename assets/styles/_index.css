@@ -174,7 +174,7 @@ a {
 }
 
 .home-img {
-    background-image: url(../images/h-tx_2.PNG);
+    background-image: url(assets/images/h-tx_2.PNG);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 0;
@@ -675,7 +675,7 @@ a {
         /*border: red 2px solid;*/
         /*padding: 0px 0px 0px 0px;*/
         min-height: 500px;
-        background-image: url("../images/kien-nguyen-994AH40vmVs-unsplash.jpg");
+        background-image: url("assets/images/kien-nguyen-994AH40vmVs-unsplash.jpg");
         background-position: center center;
         background-size: cover;
     }

@@ -10,7 +10,7 @@ const port = 500;
 app.set("port",port);
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
-app.use(express.static('assets'))
+app.use('/assets', express.static('assets'))
 
 //Routing
 app.get("/", function(req,response){
