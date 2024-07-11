@@ -3,7 +3,7 @@
 @import "_contact.css";
 
 /*BREAKPOINTS*/
-@media (max-width: 1420px){
+@media (max-width: 1420px) {
 
     .offer-title-box2 {
         grid-template-columns: 1fr 1fr;
@@ -23,15 +23,25 @@
     html {
         font-size: 70%;
     }
+
     .site-header {
         padding: 10px;
     }
+
     .main-navigation ul > li > a {
         transition: .3s;
     }
 
     .site-footer {
         padding: 10px;
+    }
+
+    .about-boxes {
+        left: 4%;
+    }
+
+    .about-boxes-2 {
+        width: 80%;
     }
 
 
@@ -64,6 +74,7 @@
         grid-template-columns: 1fr;
         position: relative;
     }
+
     .home-img {
         z-index: -1;
         position: absolute;
@@ -95,9 +106,11 @@
     html {
         font-size: 60%;
     }
+
     .header {
         padding: 2rem 4%;
     }
+
     .logo img {
         max-width: 160px;
         max-height: 160px;
@@ -110,6 +123,7 @@
     .element-section .elements-page {
         padding: 0rem 4% 0rem;
     }
+
     .title-element {
         /* background-color: bisque; */
         font-size: 30px;
@@ -119,8 +133,12 @@
         padding: 10px 0px;
     }
 
-    .footer-paragraph p, .footer-paragraph a{
+    .footer-paragraph p, .footer-paragraph a {
         font-size: 12px;
+    }
+
+    .about-boxes {
+        left: 0%;
     }
 }
 
@@ -146,7 +164,7 @@
         box-shadow: -11px 0px 3px -5px rgba(66, 68, 90, 0.12);
     }
 
-    .menu  {
+    .menu {
         display: flex;
         flex-direction: column;
     }
@@ -158,6 +176,7 @@
     .element-section .element-main-page {
         padding: 2rem 4% 2rem;
     }
+
     .element-section .elements-page {
         padding: 0rem 4% 0rem;
     }
@@ -167,7 +186,7 @@
         font-size: 30px;
     }
 
-    .portfolio-image img{
+    .portfolio-image img {
         width: 80%;
         height: auto;
     }
@@ -189,10 +208,11 @@
         font-size: 90%;
     }
 
-    .contact-elements form .contact-input-box{
+    .contact-elements form .contact-input-box {
         padding: 0px 0px 0px 0px;
     }
-    .contact-elements form .contact-textarea-field{
+
+    .contact-elements form .contact-textarea-field {
         padding: 0px 4px 0px 4px;
     }
 
@@ -201,7 +221,7 @@
         font-size: 14px;
     }
 
-    .footer-paragraph p, .footer-paragraph a{
+    .footer-paragraph p, .footer-paragraph a {
         font-size: 12px;
     }
 }
@@ -216,31 +236,52 @@
     }
 
     .about-elements {
-        /*display: flex;*/
         flex-direction: column;
         align-items: center;
     }
+
     .about-boxes {
-        /*border: black 2px solid;*/
-        /*position: relative;*/
-        width: 100%;
+        position: relative;
     }
 
-    .contact-elements form .contact-input-box{
+    .about-box .about-title, .about-box .about-paragraph {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .about-box img {
+        width: 16rem;
+
+    }
+
+    .offer-boxes {
+        height: 40rem;
+    }
+
+    .page-button.arrow-height {
+        top: 15rem;
+    }
+
+    .contactForm-title {
+        padding: 0px;
+    }
+
+    .contact-elements form .contact-input-box {
         /*width: 100%;*/
         flex-direction: column;
     }
-    .contact-elements form .contact-input-box .contact-input-field{
+
+    .contact-elements form .contact-input-box .contact-input-field {
         width: 99%;
     }
 
-    .contact-elements form .contact-textarea-field{
+    .contact-elements form .contact-textarea-field {
         padding: 0px 0px 0px 4px;
         height: 18rem;
     }
 
     .contact-elements form .contact-input-box .contact-input-field input,
-    .contact-elements form .contact-textarea-field textarea{
+    .contact-elements form .contact-textarea-field textarea {
         font-size: 1.8rem;
     }
 
@@ -248,5 +289,8 @@
         flex-direction: column;
     }
 
+}
+
+@media (max-width: 495px) {
 
 }
