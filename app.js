@@ -45,7 +45,7 @@ app.post("/send_email",function (req,response){
         service: 'gmail',
         auth: {
             user: 'daisy.gith@gmail.com',
-            pass: 'tqqquscfxsjshabr'
+            pass: 'some_code'
         }
     });
 
