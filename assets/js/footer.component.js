@@ -9,19 +9,18 @@ class Footer extends HTMLElement {
                                     <div class="footer-column">
                                         <div class="footer-widget-wrap">
                                             <div class="footer-title">
-                                               <a href="/" class="logo">  <!-- "http://h-tx.pl/"-->
-                                                    <img src="../images/Htx_LOGO.png" alt="Heating Technix">
-<!--                        HEATING TECHNIX-->
+                                               <a href="/" class="logo"> 
+                        LOGO.
                                                 </a>
                                             </div>
                                             <div class="footer-paragraph">
                                                     <p>
-                                                        <b>Heating Technix</b>
-                                                        <br> ul.sajdhskjudfbds
+                                                        <b>XXX</b>
+                                                        <br> ul.xxx
                                                         <br>kod - Miejscowość
                                                         <br>
                                                         <a href="tel:123123123">123 123 123</a>
-                                                        " | "
+                                                         |
                                                         <a href="mailto:email@email.com">email@email.com</a>
                                                         <br>
                                                         NIP: 123-123-12-12
@@ -61,14 +60,11 @@ class Footer extends HTMLElement {
                     <div class="footer-class">
                         <div class="footer-laws">
                             <div class="footer-text">
-                                <p>© Heating technix 2024. Wszelkie prawa zastrzeżone.</p>
+                                <p>© XXX 2024. Wszelkie prawa zastrzeżone.</p>
                             </div>
                             <div class="footer-text">
-                                <p>| Projekt i realizacja SDU</p>
-                            </div>
-                            <div class="footer-media">
-                                <a href="https://www.linkedin.com/in/sylwia-dudek-34abab186/">
-                                    <i class="bx bxl-linkedin"></i>
+                                <a href="/">
+                                    <p>| Projekt i realizacja SDU</p>
                                 </a>
                             </div>
                         </div>
