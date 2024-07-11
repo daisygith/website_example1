@@ -35,6 +35,11 @@ Received email will be contains information : name, phone number, email and mess
 
 ![image](https://github.com/daisygith/website_example1/assets/117667906/a69a8f30-aa98-471a-87eb-bd74de6c66d1)
 
+#### Contact form
+
+![image](https://github.com/daisygith/website_example1/assets/117667906/a73284e9-bc2f-44ef-8c08-e06d83180f8d)
+
+
 ## Share
 
 This projects is sharing on <b>Netlify.app</b> and you look it on this url:
