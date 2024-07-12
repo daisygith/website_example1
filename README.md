@@ -45,5 +45,7 @@ Received email will be contains information : name, phone number, email and mess
 
 This projects is sharing on <b>Netlify.app</b> and you look it on this url:
 
+https://main--glistening-tapioca-1ad4db.netlify.app/
+
 
 
